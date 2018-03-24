@@ -1,0 +1,196 @@
+
+#header {
+	background-color: #9ec4f9;
+	width: 100%;
+	height: 110px;
+	padding-top: 1px;
+}
+
+#header div{
+	background-color: #cee2fb;
+	height: 40px;
+	float: left;
+	margin: 0.3%;
+	margin-bottom: 3px;
+	text-align: center;
+	
+}
+div.H1_1{
+	width: 22%;
+}
+div.H1_2{
+	width: 48%;
+}
+div.H1_3{
+	width: 28%;
+	margin-left: 8px;
+}
+#hero{
+	background-color: #9ec4f9;
+	width: 71%;
+	height: 120px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 0.9%;
+}
+#hero div{
+	background-color: #cee2fb;
+	height: 50px;
+	float: left;
+	margin: 0.4%;
+	text-align: center;
+}
+div.H2_1{
+	width: 69%;
+}
+div.H2_2{
+	width: 29%;
+}
+	
+#ad {
+	margin-top: 10px;
+	background-color: #6fa6dc;
+	width: 28%;
+	height: 120px;
+	float: left;
+}
+#body{
+	background-color: #9ec4f9;
+	width: 71%;
+	height: 320px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 1%;
+}
+div.B4_1 {
+	width: 29%;
+	background-color: #cee2fb;
+	float: left;
+	margin: 0.5%;
+	height: 230px;
+}
+div.B4_2 {
+	width: 68.4%;
+	background-color: #cee2fb;
+	float: left;
+	margin: 0.5%;
+	height: 230px;
+}
+div.B4_3 {
+	background-color: #6fa6dc;
+	float: left;
+	display: none;
+}
+#sidebar{
+	background-color: #9ec4f9;
+	width: 28%;
+	float: left;
+	margin-top: 10px;
+	height: 320px;
+}
+div.S5_1{
+	background-color: #cee2fb;
+	float: left;
+	width: 95%;
+	height: 230px;
+	margin-left: 10px;
+	margin-top: 5px;}
+#footer {
+	background-color: #9ec4f9;
+	width: 100%;
+	height: 45px;
+	float: left;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 960px){
+#ad{
+	display: none;
+}
+#hero{
+	width: 100%;
+	height: 180px;
+}
+div.H2_1{
+	width: 99%;
+}
+div.H2_2{
+	width: 99%;	
+}
+#body{
+	width: 100%;
+	height: 565px;
+}
+div.B4_1{
+	width: 78%;
+	height: 180px;
+	margin-right: 7px;
+}
+div.B4_3{
+	display:block;
+	width: 20%;
+	height: 160px; 
+	
+}
+div.B4_2{
+	width: 99%;
+	height: 300px;
+}
+#sidebar{
+	width: 100%;
+	height: 170px;
+}
+div.S5_1{
+	width: 98.9%;
+	height:100px;
+	margin-left: 5px;
+
+}
+@media screen and ( max-width: 736px){
+#header {
+	width:100%;
+	height: 150px;
+	padding: 1.2px;
+}
+div.H1_1{
+	width: 99%
+}
+div.H1_2{
+	width: 70%;
+}
+div.h1_3{
+	width: 20%;
+	margin-left: 2px;
+}
+#hero{
+	width: 100%;
+	height: 120px;
+	padding: 1.2px;
+}
+div.H2_1{
+	display: none;
+}
+#body{
+width: 100%;
+height: 280px;
+padding: 1.5px;
+}
+div.B4_1{
+	width: 96%;
+	height: 50px;
+	text-align: center;
+}
+div.B4_3{
+	width: 98%;
+	height: 50px;
+	text-align: center;
+}
+div.B4_2{
+	width: 98%
+	height: 50px;
+	text-align: center;
+}
+
+#sidebar{
+	display: none;
+}
